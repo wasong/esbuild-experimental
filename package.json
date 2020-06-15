@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node tools/run.js"
+    "dev": "rm -rf public/dist && node tools/run.js",
+    "build": "rm -rf public/dist && node tools/build.js"
   },
   "author": "Andrew Song",
   "license": "ISC",
