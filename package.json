@@ -1,0 +1,22 @@
+{
+  "name": "esbuild-experimental",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node tools/run.js"
+  },
+  "author": "Andrew Song",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "babel-loader": "^8.1.0",
+    "esbuild": "^0.5.3",
+    "eslint": "^7.2.0"
+  }
+}
